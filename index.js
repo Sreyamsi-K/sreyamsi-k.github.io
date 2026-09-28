@@ -1,3 +1,5 @@
-function clickMe(){
-alert("You Clicked me");
-}
+const printButton = document.getElementById("printBtn");
+
+printButton.addEventListener("click", function () {
+    window.print();
+});
