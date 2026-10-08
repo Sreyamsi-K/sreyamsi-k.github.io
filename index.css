@@ -1,6 +1,43 @@
-/* ==============================
-   RESET
-================================= */
+h1{
+  color : red;
+}
+
+#navbar{
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  background-color: lightblue;
+}
+
+#navbar a{
+  color: orange;
+  text-decoration: none;
+  padding: 15px;
+}
+
+#card{
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#card img{
+  width: 350px;
+}
+
+
+
+
+
+
+
+/*
+
 #navbar{
     border-style: solid;
     border-color: black;
@@ -23,9 +60,7 @@ body {
 }
 
 
-/* ==============================
-   RESUME PAGE
-================================= */
+
 
 .resume {
     width: 210mm;
@@ -43,9 +78,6 @@ body {
 }
 
 
-/* ==============================
-   HEADER
-================================= */
 
 .header {
     display: flex;
@@ -57,7 +89,7 @@ body {
 }
 
 
-/* PHOTO */
+
 
 .profile {
     width: 120px;
@@ -80,7 +112,7 @@ body {
 }
 
 
-/* HEADER TEXT */
+
 
 .header-title {
     flex: 1;
@@ -115,9 +147,7 @@ body {
 }
 
 
-/* ==============================
-   MAIN TWO-COLUMN AREA
-================================= */
+
 
 .content {
 
@@ -131,9 +161,6 @@ body {
 }
 
 
-/* ==============================
-   LEFT COLUMN
-================================= */
 
 .left-column {
 
@@ -145,9 +172,7 @@ body {
 }
 
 
-/* ==============================
-   RIGHT COLUMN
-================================= */
+
 
 .right-column {
 
@@ -159,9 +184,7 @@ body {
 }
 
 
-/* ==============================
-   SECTION HEADINGS
-================================= */
+
 
 section {
     margin-bottom: 15px;
@@ -190,9 +213,7 @@ section h3 {
 }
 
 
-/* ==============================
-   LEFT COLUMN
-================================= */
+
 
 .left-column p {
 
@@ -209,7 +230,7 @@ section h3 {
 }
 
 
-/* EDUCATION */
+
 
 .education-item {
 
@@ -231,7 +252,7 @@ section h3 {
 }
 
 
-/* SKILLS */
+
 
 .skills {
 
@@ -244,9 +265,7 @@ section h3 {
 }
 
 
-/* ==============================
-   RIGHT COLUMN
-================================= */
+
 
 .right-column p {
 
@@ -256,7 +275,7 @@ section h3 {
 }
 
 
-/* ABOUT */
+
 
 .about {
 
@@ -266,7 +285,6 @@ section h3 {
 }
 
 
-/* EXPERIENCE */
 
 .experience-item {
 
@@ -286,19 +304,13 @@ section h3 {
 }
 
 
-/* ==============================
-   PORTFOLIO
-================================= */
-
 .right-column section:last-child p {
 
     margin-bottom: 3px;
 }
 
 
-/* ==============================
-   PRINT BUTTON
-================================= */
+
 
 .actions {
 
@@ -323,9 +335,6 @@ section h3 {
 }
 
 
-/* ==============================
-   PRINT
-================================= */
 
 @media print {
 
@@ -394,3 +403,4 @@ section h3 {
         margin: 0;
     }
 }
+*/
