@@ -1,0 +1,26 @@
+{
+  "name": "sreyamsi-k.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreyamsi-K/sreyamsi-k.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sreyamsi-K/sreyamsi-k.github.io/issues"
+  },
+  "homepage": "https://github.com/Sreyamsi-K/sreyamsi-k.github.io#readme",
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
