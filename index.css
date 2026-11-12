@@ -16,6 +16,11 @@ h1{
   text-decoration: none;
   padding: 15px;
 }
+#navbar a:hover{
+  background-color: beige;
+  color: red;
+  text-decoration: underline;
+}
 
 #card{
   border-style: solid;
@@ -42,4 +47,13 @@ body{
   margin-bottom: 20px;
   width: 70%;
   padding: 10px;
+  border-radius: 20px;
+}
+#card button:hover{
+  background-color: lightblue;
+  color: white;
+  text-decoration: underline;
+  cursor:pointer;
+  border-color:aqua;
+  
 }
